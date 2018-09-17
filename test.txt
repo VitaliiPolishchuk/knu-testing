@@ -1,3 +1,172 @@
-Arrays are a powerful and useful concept used in programming. Java SE provides methods to perform some of the most common manipulations related to arrays. For instance, the ArrayCopyDemo example uses the arraycopy method of the System class instead of manually iterating through the elements of the source array and placing each one into the destination array. This is performed behind the scenes, enabling the developer to use just one line of code to call the method.
+The Gestalt school had a revolutionary impact on the field of visual
+perception in the early 1900s. As a consequence, it has long been thought
+that access to shape/object memories can occur only after the visual field has
+been organized into figures and grounds. That is, it has been assumed that
+figure–ground assignment is immune to influences from memory, even from
+memories that are intrinsically visual (e.g., memory for shape or object
+structure). Of course, the figure–ground-first assumption entails the belief
+that a line separating perception and memory can be drawn somewhere
+between figure assignment and memories of shape or object structure.
+Research in Peterson’s laboratory has shown that the Gestalt-based figure–
+ground-first assumption is incorrect, however. Some form of shape/object
+memory is accessed before, and contributes to, figure assignment.
+In this chapter, we begin by showing that the evidence that long served to
+support the figure-ground-first assumption is really quite weak (Section II).
+Section III reviews Peterson and her colleague’s early work revealing shape
+and object memory effects on figure assignment. In this early work,
+observers reported their subjective impression of where the figure lay with
+respect to the border of interest; in other words, figure–ground perception
+was assessed via direct report. In Section IV, a number of questions are
+reopened by the findings of Peterson and her colleagues, questions for which
+answers generated within the figure-ground-first assumption are no longer
+valid. We review some research conducted to answer these questions and
+introduce a new model of figure assignment (Peterson, 2000; Peterson,
+de Gelder, Rapcsak, Gerhardstein, & Bachoud-Le´vi, 2000). In this model,
+memory of shape/object structure serves as one of an ensemble of figure
+cues, along with the Gestalt configural cues. This model does not represent
+a return to the Structuralist tradition where past experience was the only
+organizing factor, or even the dominant organizing factor. In Section V,
+we describe some recent experiments testing the competitive model. In
+these experiments, processes involved in figure assignment are assessed
+indirectly via a priming paradigm. In Section VI, we review an experiment
+showing that a single past experience with a novel border exerts a
+measurable influence on figure assignment the next time the border is
+encountered. The chapter ends with some remarks on learning, memory,
+and perception.
 
-For your convenience, Java SE provides several methods for performing array manipulations (common tasks, such as copying, sorting and searching arrays) in the java.util.Arrays class. For instance, the previous example can be modified to use the copyOfRange method of the java.util.Arrays class, as you can see in the ArrayCopyOfDemo example. The difference is that using the copyOfRange method does not require you to create the destination array before calling the method, because the destination array is returned by the method:
+A third phenomenon of evidence for the figure-ground-first assumption is
+the well-known coupling between figural status and conscious recognition,
+illustrated by the Rubin vase-faces display in Figure 1C. The vase can be
+recognized when the central black region appears to be the figure at the
+border it shares with the adjacent white region, but not when it appears to
+be ground to the surrounding white region. Likewise, the faces can be
+recognized when the surrounding white region appears to be the figure at the
+vertical borders it shares with the black region, but not when the white
+region appears to be ground at those borders. This coupling between
+figural status and recognition led many vision scientists to accept the figureground-first
+assumption. A coupling cannot provide unequivocal evidence
+for a serial sequence, however.
+Surprisingly, until the initial tests conducted in our laboratory were
+published in 1991 (Peterson & Gibson, 1991; Peterson, Harvey, &
+Weidenbacher, 1991), there were very few direct tests of whether past
+experience contributed to figure assignment. A few experiments had
+suggested that aspects of past experience might affect figure assignment
+(Schaffer & Murphy, 1943; Rubin, 1958). These results were dismissed
+based on procedural criticisms, desultory attempts (and failures) to
+replicate, and alternative interpretations that did not fit the data any better
+than the original interpretation did (for review, see Peterson, 1995, 1999).
+The Gestalt arguments against the Structuralist tradition continued to exert
+a strong hold on perception psychologists who, despite evidence that
+memory and past experience affected many other visual processes,
+continued to believe that figure–ground assignment lay far enough below
+an implicit line dividing perception from memory to be immune to
+influences from memory.
+and white regions sketched portions of known objects on the white side
+(standing women in Figure 2A, and face profiles in Figure 2B). Peterson
+et al. (1991) showed these displays to observers who viewed them for long
+durations (30–40 seconds) and reported continuously whether the black or
+the white region appeared to be figure by pressing one of two keys.
+Observers viewed all displays in both an upright orientation, as shown in
+Figure 2, and in an inverted orientation (which can be seen by turning the
+book upside down). Changing the orientation from upright to inverted did
+not change the Gestalt configural cues: the center black region is enclosed,
+symmetric, and smaller in area than the surrounding white region both when
+the display is upright and when it is inverted. Nor did it change the
+monocular depth cue of interposition in Figure 2B, or the fact that observers
+fixated the black region on all trials. However, when the display is upright,
+the known object sketched on the white side of the black–white border is
+portrayed in its typical orientation, whereas when the display is inverted, the
+known object is disoriented from its typical upright.
+Access to shape and object memories is orientation specific. For instance,
+it takes longer for observers to identify objects and pictures of objects that
+are disoriented from their typical upright orientation (Jolicœur, 1988; Tarr
+& Pinker, 1989). Perrett, Oram, and Ashbridge (1998) have shown that it
+takes longer for a population of cells coding an object to reach some
+threshold if the object is shown in an atypical orientation. The orientation
+specificity of object recognition led Peterson and her colleagues to
+hypothesize that changing the orientation of the displays might reveal
+object memory effects on figure assignment by modulating them.
+Specifically, if object memories affect figure assignment, their influence
+should be larger for upright displays than for inverted displays. Therefore,
+
+Importantly, Peterson et al. (1991) found that knowledge could not
+overcome the effects of changing the orientation or rearranging the parts.
+The orientation effects were obtained even if observers knew that the displays
+portrayed inverted women or inverted face profiles; the same was true for the
+effects of scrambling the parts. This finding indicated that knowledge of any
+type could not produce these effects; access to memories of object structure
+via the visual input was necessary (see also Gibson & Peterson, 1994).
+The results obtained by Peterson et al. (1991) indicated that memories of
+object structure (at least) are accessed in the course of figure assignment and
+affect its outcome. It was clear in the original experiments that semantic
+knowledge alone was insufficient for these effects, the proper structure of the
+object was necessary. Peterson and Gibson (1991, 1994b; Gibson &
+Peterson, 1994) showed that the Peterson et al. (1991) results extended to
+masked displays exposed for brief durations (as short as 28 ms).
+The initial results showing that object memories affected figure
+assignment were obtained using displays that were biased against seeing
+the figure lying on the side of the border where a well-known object was
+sketched. Later, Peterson and Gibson (1994a; Gibson & Peterson, 1994)
+tested whether object memories affected figure assignment using displays,
+such as those in Figure 4A, in which object structure was the only cue that
+reliably distinguished between the regions on either side of a central border.
+They found orientation effects for these displays as well: Observers were
+more likely to report seeing the figure on the side of the border where the
+well-known object was sketched when the displays were upright rather than
+inverted. Thus, object memory effects on figure assignment were evident
+both with displays that should have been unambiguous if only the
+traditional Gestalt cues were taken to be relevant to figure assignment
+(e.g., the displays in Figure 2) and with displays that were ambiguous in that
+configural cues were equated for the two adjacent regions (e.g., displays like
+those in Figure 4A).
+In a different series of experiments, Peterson and Gibson (1993) added
+binocular disparity to displays like those in Figure 4A in which object
+memory favored seeing the figure on one side of a border, but Gestalt
+configural cues did not reliably distinguish between the two sides. Binocular
+disparity indicated that the figure lay either on the same side or on the
+opposite side of the border as the known object. Peterson and Gibson
+expected that when both object memory and binocular disparity specified
+that the figure lay on the same side of the border, the displays would be
+unambiguous. The stimuli in which object memory and binocular disparity
+specified that the figure lay on opposite sides of the border were the
+interesting case. If the addition of binocular disparity rendered the displays
+A first set of questions is the following. How can object memories be
+accessed before figure–ground organization has been imposed on the visual
+field; that is, before shaped figures have been separated from shapeless
+grounds? What serves as the substrate for access to object memories? Must
+we return to the Structuralist claim that past experience can be accessed by
+completely unorganized pointillistic input?
+In response to these questions, Peterson and Gibson (1993, 1994b)
+proposed that at least the initial stages of edge extraction precede access to
+object memories and that edges, rather than shaped entities or even whole
+regions, were the substrate for matches to shape and object memories. They
+argued that edge-based access to memories of object structure could occur at
+the same time that the Gestalt configural cues are being assessed. This would
+allow memories of object structure to serve as one more figural cue (i.e., to
+add to the traditional ensemble of Gestalt configural cues).
+Further, Peterson and Gibson (1993) argued that not all edges could
+support object memory effects on figure assignment. One critical requirement
+is that edges must be extracted early in processing; only such edges can
+support quick access to object memories. Evidence that object memories
+must be accessed quickly if they are to affect figure assignment comes from
+the orientation effects. Inverted stimuli do access memories of familiar
+
+A second set of questions that was raised by Peterson and colleague’s
+challenge to the figure–ground-first assumption concerns the behavior of
+visual agnosic patients, such as the one tested by Warrington and Taylor
+(1973). If tested with displays designed to reveal object memory effects on
+figure assignment, will visual agnosics behave like normal observers or will
+they fail to show effects of object memories on figure assignment? If a visual
+agnosic cannot identify the objects portrayed in figure–ground displays, yet
+shows spared object memory effects on figure assignment, that would
+suggest that impaired identification responses cannot be taken to support a
+serial view of the relationship between figure–ground assignment and access
+to memories of object structure.
+To address these questions, Peterson et al. (2000) tested a visual agnosic
+patient, A.D. They assessed A.D.’s object recognition/identification abilities
+via a battery of standard tests, including the Boston Naming Test, the
+impossible objects subtest of the Birmingham Object Recognition Battery
+(the BORB, Riddoch & Humphreys, 1993), and the Visual Object and
+Spatial Perception Battery (VOSP, Warrington & James, 1991). These tests
+require either a naming response or a decision regarding whether a depicted
+object is a familiar object or a novel (or impossible) object. The VOSP

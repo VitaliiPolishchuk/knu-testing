@@ -8,11 +8,11 @@ import java.nio.file.Paths;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         ListWords listWords = new ListWords();
 
-        Charset charset = Charset.forName("US-ASCII");
+        Charset charset = Charset.forName("windows-1251");
         try (BufferedReader reader = (BufferedReader) Files.newBufferedReader(Paths.get("test.txt"), charset)) {
             String line = null;
             while ((line = reader.readLine()) != null) {
