@@ -9,7 +9,7 @@
             </run>
         </groups>
         <classes>
-            <class name="mypkg.ListWordsTestNGTest"/>
+            <class name="testng.ListWordsTestNGTest"/>
         </classes>
     </test>
 </suite>

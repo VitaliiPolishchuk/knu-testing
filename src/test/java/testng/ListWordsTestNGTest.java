@@ -1,6 +1,6 @@
-package mypkg;
+package testng;
 
-import com.company.ListWords;
+import file.processing.ListWords;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
