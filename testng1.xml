@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "Suite1" parallel="tests">
+    <test name = "Test1">
+        <groups>
+            <run>
+                <include name = "init" />
+                <include name = "remove" />
+            </run>
+        </groups>
+        <classes>
+            <class name="mypkg.ListWordsTestNGTest"/>
+        </classes>
+    </test>
+</suite>
