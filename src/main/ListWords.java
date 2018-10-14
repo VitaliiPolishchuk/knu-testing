@@ -1,14 +1,25 @@
-package file.processing;
-
 import java.util.ArrayList;
 import java.util.List;
 
 public class ListWords {
     List<String> listWords;
     private static int maxLetterCount = 30;
+    private iFileReader fileReader;
 
-    public ListWords() {
+    public ListWords(iFileReader fileReader)
+    {
+        this.fileReader = fileReader;
         this.listWords = new ArrayList<String>();
+    }
+
+    public boolean addWordFromFile(String fileName){
+        String[] words = fileReader.readFile(fileName).split(" ");
+
+        for(String word: words){
+            this.addWord(word);
+        }
+
+        return true;
     }
 
     public boolean addWord(String word) {
@@ -37,6 +48,10 @@ public class ListWords {
         } else {
             return "";
         }
+    }
+
+    public int size(){
+        return listWords.size();
     }
 
     public String toString(){
